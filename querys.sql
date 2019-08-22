@@ -1,69 +1,64 @@
-CREATE TABLE Barcelona_1992 (
-id INT PRIMARY KEY,
+CREATE TABLE barcelona_1992 (
 country TEXT,
 country_id TEXT,
-Gold INT,
-Silver INT,
-Bronze INT,
-Total INT
+gold INT,
+silver INT,
+bronze INT,
+total INT
 );
 
-CREATE TABLE Atlanta_1996 (
-id INT PRIMARY KEY,
+CREATE TABLE atlanta_1996 (
 country TEXT,
 country_id TEXT,
-Gold INT,
-Silver INT,
-Bronze INT,
-Total INT
+gold INT,
+silver INT,
+bronze INT,
+total INT
 );
 
-CREATE TABLE Sidney_2000 (
-id INT PRIMARY KEY,
+CREATE TABLE sidney_2000 (
 country TEXT,
 country_id TEXT,
-Gold INT,
-Silver INT,
-Bronze INT,
-Total INT
+gold INT,
+silver INT,
+bronze INT,
+total INT
 );
 
-CREATE TABLE Atenas_2004 (
-id INT PRIMARY KEY,
+CREATE TABLE atenas_2004 (
 country TEXT,
 country_id TEXT,
-Gold INT,
-Silver INT,
-Bronze INT,
-Total INT
+gold INT,
+silver INT,
+bronze INT,
+total INT
 );
 
-CREATE TABLE Pekin_2008 (
-id INT PRIMARY KEY,
+CREATE TABLE pekin_2008 (
 country TEXT,
 country_id TEXT,
-Gold INT,
-Silver INT,
-Bronze INT,
-Total INT
+gold INT,
+silver INT,
+bronze INT,
+total INT
 );
 
-CREATE TABLE Londres_2012 (
-id INT PRIMARY KEY,
+CREATE TABLE londres_2012 (
 country TEXT,
 country_id TEXT,
-Gold INT,
-Silver INT,
-Bronze INT,
-Total INT
+gold INT,
+silver INT,
+bronze INT,
+total INT
 );
 
-CREATE TABLE Rio_2016 (
-id INT PRIMARY KEY,
+CREATE TABLE rio_2016 (
 country TEXT,
 country_id TEXT,
-Gold INT,
-Silver INT,
-Bronze INT,
-Total INT
+gold INT,
+silver INT,
+bronze INT,
+total INT
 );
+
+select * from rio_2016;
