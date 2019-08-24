@@ -1,3 +1,13 @@
+CREATE TABLE greattotal (
+country TEXT,
+country_id TEXT,
+total_gold INT,
+total_silver INT,
+total_bronze INT,
+total_total INT
+);
+
+
 CREATE TABLE barcelona_1992 (
 country TEXT,
 country_id TEXT,
@@ -101,5 +111,20 @@ bronze_16 INT,
 total_bronze INT
 );
 
+CREATE TABLE Continent (
+Continent text,
+total_gold INT,
+total_silver INT,
+total_bronze INT,
+total_total INT
+);
+
 select * from silver 
 ;
+
+select * from greattotal
+;
+
+select * from continent
+;
+
